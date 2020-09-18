@@ -15,7 +15,36 @@
 		292BA6AD19E7F69E00D0F6C8 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 292BA6AB19E7F69E00D0F6C8 /* ViewController.xib */; };
 		292BA6B219E7F6A800D0F6C8 /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 292BA6AF19E7F6A800D0F6C8 /* ProgressHUD.bundle */; };
 		292BA6B319E7F6A800D0F6C8 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 292BA6B119E7F6A800D0F6C8 /* ProgressHUD.m */; };
+		4DF5463C2514AE7A00E399A7 /* ProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DF5463A2514AE7A00E399A7 /* ProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DF5463F2514AE7A00E399A7 /* ProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DF546382514AE7A00E399A7 /* ProgressHUD.framework */; };
+		4DF546402514AE7A00E399A7 /* ProgressHUD.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4DF546382514AE7A00E399A7 /* ProgressHUD.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4DF546482514AEC900E399A7 /* OldProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DF546462514AEC900E399A7 /* OldProgressHUD.h */; };
+		4DF546492514AEC900E399A7 /* OldProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF546472514AEC900E399A7 /* OldProgressHUD.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4DF5463D2514AE7A00E399A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 292BA67819E7F62000D0F6C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DF546372514AE7A00E399A7;
+			remoteInfo = ProgressHUD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4DF546412514AE7A00E399A7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4DF546402514AE7A00E399A7 /* ProgressHUD.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		292BA68019E7F62000D0F6C8 /* app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = app.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -31,10 +60,23 @@
 		292BA6AF19E7F6A800D0F6C8 /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ProgressHUD.bundle; sourceTree = "<group>"; };
 		292BA6B019E7F6A800D0F6C8 /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
 		292BA6B119E7F6A800D0F6C8 /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
+		4DF546382514AE7A00E399A7 /* ProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DF5463A2514AE7A00E399A7 /* ProgressHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
+		4DF5463B2514AE7A00E399A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DF546462514AEC900E399A7 /* OldProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OldProgressHUD.h; path = ProgressHUD/OldProgressHUD.h; sourceTree = "<group>"; };
+		4DF546472514AEC900E399A7 /* OldProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OldProgressHUD.m; path = ProgressHUD/OldProgressHUD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		292BA67D19E7F62000D0F6C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DF5463F2514AE7A00E399A7 /* ProgressHUD.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DF546352514AE7A00E399A7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -49,6 +91,7 @@
 			children = (
 				292BA6AE19E7F6A800D0F6C8 /* ProgressHUD */,
 				292BA68219E7F62000D0F6C8 /* app */,
+				4DF546392514AE7A00E399A7 /* ProgressHUD */,
 				292BA68119E7F62000D0F6C8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -57,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				292BA68019E7F62000D0F6C8 /* app.app */,
+				4DF546382514AE7A00E399A7 /* ProgressHUD.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,7 +139,30 @@
 			path = ProgressHUD;
 			sourceTree = "<group>";
 		};
+		4DF546392514AE7A00E399A7 /* ProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				4DF546462514AEC900E399A7 /* OldProgressHUD.h */,
+				4DF546472514AEC900E399A7 /* OldProgressHUD.m */,
+				4DF5463A2514AE7A00E399A7 /* ProgressHUD.h */,
+				4DF5463B2514AE7A00E399A7 /* Info.plist */,
+			);
+			path = ProgressHUD;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4DF546332514AE7A00E399A7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DF5463C2514AE7A00E399A7 /* ProgressHUD.h in Headers */,
+				4DF546482514AEC900E399A7 /* OldProgressHUD.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		292BA67F19E7F62000D0F6C8 /* app */ = {
@@ -105,15 +172,35 @@
 				292BA67C19E7F62000D0F6C8 /* Sources */,
 				292BA67D19E7F62000D0F6C8 /* Frameworks */,
 				292BA67E19E7F62000D0F6C8 /* Resources */,
+				4DF546412514AE7A00E399A7 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				4DF5463E2514AE7A00E399A7 /* PBXTargetDependency */,
 			);
 			name = app;
 			productName = app;
 			productReference = 292BA68019E7F62000D0F6C8 /* app.app */;
 			productType = "com.apple.product-type.application";
+		};
+		4DF546372514AE7A00E399A7 /* ProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DF546442514AE7A00E399A7 /* Build configuration list for PBXNativeTarget "ProgressHUD" */;
+			buildPhases = (
+				4DF546332514AE7A00E399A7 /* Headers */,
+				4DF546342514AE7A00E399A7 /* Sources */,
+				4DF546352514AE7A00E399A7 /* Frameworks */,
+				4DF546362514AE7A00E399A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProgressHUD;
+			productName = ProgressHUD;
+			productReference = 4DF546382514AE7A00E399A7 /* ProgressHUD.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -128,9 +215,13 @@
 						CreatedOnToolsVersion = 6.0.1;
 						DevelopmentTeam = UUF85U8HLF;
 					};
+					4DF546372514AE7A00E399A7 = {
+						CreatedOnToolsVersion = 12.0;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
-			buildConfigurationList = 292BA67B19E7F62000D0F6C8 /* Build configuration list for PBXProject "app" */;
+			buildConfigurationList = 292BA67B19E7F62000D0F6C8 /* Build configuration list for PBXProject "ProgressHUD" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -144,6 +235,7 @@
 			projectRoot = "";
 			targets = (
 				292BA67F19E7F62000D0F6C8 /* app */,
+				4DF546372514AE7A00E399A7 /* ProgressHUD */,
 			);
 		};
 /* End PBXProject section */
@@ -157,6 +249,13 @@
 				292BA69119E7F62000D0F6C8 /* Images.xcassets in Resources */,
 				292BA6B219E7F6A800D0F6C8 /* ProgressHUD.bundle in Resources */,
 				292BA6AD19E7F69E00D0F6C8 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DF546362514AE7A00E399A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,7 +273,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4DF546342514AE7A00E399A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DF546492514AEC900E399A7 /* OldProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4DF5463E2514AE7A00E399A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DF546372514AE7A00E399A7 /* ProgressHUD */;
+			targetProxy = 4DF5463D2514AE7A00E399A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		292BA69219E7F62000D0F6C8 /* LaunchScreen.xib */ = {
@@ -317,10 +432,83 @@
 			};
 			name = Release;
 		};
+		4DF546422514AE7A00E399A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = ProgressHUD/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dropletapp.ProgressHUD;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4DF546432514AE7A00E399A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = ProgressHUD/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dropletapp.ProgressHUD;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		292BA67B19E7F62000D0F6C8 /* Build configuration list for PBXProject "app" */ = {
+		292BA67B19E7F62000D0F6C8 /* Build configuration list for PBXProject "ProgressHUD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				292BA6A119E7F62000D0F6C8 /* Debug */,
@@ -334,6 +522,15 @@
 			buildConfigurations = (
 				292BA6A419E7F62000D0F6C8 /* Debug */,
 				292BA6A519E7F62000D0F6C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DF546442514AE7A00E399A7 /* Build configuration list for PBXNativeTarget "ProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DF546422514AE7A00E399A7 /* Debug */,
+				4DF546432514AE7A00E399A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
