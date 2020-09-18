@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <ProgressHUD/OldProgressHUD.h>
 
 //! Project version number for ProgressHUD.
 FOUNDATION_EXPORT double ProgressHUDVersionNumber;
