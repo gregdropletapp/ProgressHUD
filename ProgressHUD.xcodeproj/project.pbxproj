@@ -18,8 +18,7 @@
 		4DF5463C2514AE7A00E399A7 /* ProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DF5463A2514AE7A00E399A7 /* ProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4DF5463F2514AE7A00E399A7 /* ProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DF546382514AE7A00E399A7 /* ProgressHUD.framework */; };
 		4DF546402514AE7A00E399A7 /* ProgressHUD.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4DF546382514AE7A00E399A7 /* ProgressHUD.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		4DF546482514AEC900E399A7 /* OldProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DF546462514AEC900E399A7 /* OldProgressHUD.h */; };
-		4DF546492514AEC900E399A7 /* OldProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF546472514AEC900E399A7 /* OldProgressHUD.m */; };
+		4DF546492514AEC900E399A7 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF546472514AEC900E399A7 /* ProgressHUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,8 +62,7 @@
 		4DF546382514AE7A00E399A7 /* ProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DF5463A2514AE7A00E399A7 /* ProgressHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
 		4DF5463B2514AE7A00E399A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4DF546462514AEC900E399A7 /* OldProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OldProgressHUD.h; path = ProgressHUD/OldProgressHUD.h; sourceTree = "<group>"; };
-		4DF546472514AEC900E399A7 /* OldProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OldProgressHUD.m; path = ProgressHUD/OldProgressHUD.m; sourceTree = "<group>"; };
+		4DF546472514AEC900E399A7 /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProgressHUD.m; path = ProgressHUD/ProgressHUD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,8 +140,7 @@
 		4DF546392514AE7A00E399A7 /* ProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
-				4DF546462514AEC900E399A7 /* OldProgressHUD.h */,
-				4DF546472514AEC900E399A7 /* OldProgressHUD.m */,
+				4DF546472514AEC900E399A7 /* ProgressHUD.m */,
 				4DF5463A2514AE7A00E399A7 /* ProgressHUD.h */,
 				4DF5463B2514AE7A00E399A7 /* Info.plist */,
 			);
@@ -158,7 +155,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DF5463C2514AE7A00E399A7 /* ProgressHUD.h in Headers */,
-				4DF546482514AEC900E399A7 /* OldProgressHUD.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DF546492514AEC900E399A7 /* OldProgressHUD.m in Sources */,
+				4DF546492514AEC900E399A7 /* ProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
