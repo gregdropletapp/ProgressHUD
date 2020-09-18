@@ -7,27 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		295B8482248C1C5B003E8AE6 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 295B8480248C1C5B003E8AE6 /* ViewController.xib */; };
-		295B8483248C1C5B003E8AE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295B8481248C1C5B003E8AE6 /* ViewController.swift */; };
-		299876DB248FCB290025E297 /* ProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299876DA248FCB290025E297 /* ProgressHUD.swift */; };
-		29D29EF91D9A59E4006CA074 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D29EF81D9A59E4006CA074 /* AppDelegate.swift */; };
-		29D29F011D9A59E4006CA074 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29D29F001D9A59E4006CA074 /* Assets.xcassets */; };
-		29D29F041D9A59E4006CA074 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29D29F021D9A59E4006CA074 /* LaunchScreen.storyboard */; };
+		4D2ED86625149BDF00BB9459 /* ProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D2ED86425149BDF00BB9459 /* ProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D6825A625149C9E00E10EB7 /* ProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6825A525149C9E00E10EB7 /* ProgressHUD.swift */; };
+		4D6825AC25149CE400E10EB7 /* Demo in Resources */ = {isa = PBXBuildFile; fileRef = 4D6825AB25149CE400E10EB7 /* Demo */; };
+		4D6825AF25149D3D00E10EB7 /* ProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D2ED86225149BDF00BB9459 /* ProgressHUD.framework */; };
+		4D6825B025149D3D00E10EB7 /* ProgressHUD.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4D2ED86225149BDF00BB9459 /* ProgressHUD.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		4D6825B125149D3D00E10EB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29D29EE91D9A59E4006CA074 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D2ED86125149BDF00BB9459;
+			remoteInfo = ProgressHUD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4D6825B325149D3D00E10EB7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4D6825B025149D3D00E10EB7 /* ProgressHUD.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		295B8480248C1C5B003E8AE6 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
-		295B8481248C1C5B003E8AE6 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		299876DA248FCB290025E297 /* ProgressHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressHUD.swift; sourceTree = "<group>"; };
 		29D29EF11D9A59E4006CA074 /* app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = app.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		29D29EF81D9A59E4006CA074 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		29D29F001D9A59E4006CA074 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		29D29F031D9A59E4006CA074 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		29D29F051D9A59E4006CA074 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D2ED86225149BDF00BB9459 /* ProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D2ED86425149BDF00BB9459 /* ProgressHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
+		4D2ED86525149BDF00BB9459 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D6825A525149C9E00E10EB7 /* ProgressHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressHUD.swift; sourceTree = "<group>"; };
+		4D6825AB25149CE400E10EB7 /* Demo */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Demo; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		29D29EEE1D9A59E4006CA074 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D6825AF25149D3D00E10EB7 /* ProgressHUD.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D2ED85F25149BDF00BB9459 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,19 +66,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		299876D9248FCB290025E297 /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				299876DA248FCB290025E297 /* ProgressHUD.swift */,
-			);
-			path = Sources;
-			sourceTree = "<group>";
-		};
 		29D29EE81D9A59E4006CA074 = {
 			isa = PBXGroup;
 			children = (
-				299876D9248FCB290025E297 /* Sources */,
-				29D29EF31D9A59E4006CA074 /* app */,
+				4D6825AB25149CE400E10EB7 /* Demo */,
+				4D2ED86325149BDF00BB9459 /* ProgressHUD */,
 				29D29EF21D9A59E4006CA074 /* Products */,
 				BD5925BEFAEDA190E57A7F14 /* Frameworks */,
 			);
@@ -59,21 +80,19 @@
 			isa = PBXGroup;
 			children = (
 				29D29EF11D9A59E4006CA074 /* app.app */,
+				4D2ED86225149BDF00BB9459 /* ProgressHUD.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		29D29EF31D9A59E4006CA074 /* app */ = {
+		4D2ED86325149BDF00BB9459 /* ProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
-				29D29EF81D9A59E4006CA074 /* AppDelegate.swift */,
-				29D29F001D9A59E4006CA074 /* Assets.xcassets */,
-				29D29F051D9A59E4006CA074 /* Info.plist */,
-				29D29F021D9A59E4006CA074 /* LaunchScreen.storyboard */,
-				295B8481248C1C5B003E8AE6 /* ViewController.swift */,
-				295B8480248C1C5B003E8AE6 /* ViewController.xib */,
+				4D6825A525149C9E00E10EB7 /* ProgressHUD.swift */,
+				4D2ED86425149BDF00BB9459 /* ProgressHUD.h */,
+				4D2ED86525149BDF00BB9459 /* Info.plist */,
 			);
-			path = app;
+			path = ProgressHUD;
 			sourceTree = "<group>";
 		};
 		BD5925BEFAEDA190E57A7F14 /* Frameworks */ = {
@@ -85,6 +104,17 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		4D2ED85D25149BDF00BB9459 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D2ED86625149BDF00BB9459 /* ProgressHUD.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		29D29EF01D9A59E4006CA074 /* app */ = {
 			isa = PBXNativeTarget;
@@ -93,15 +123,35 @@
 				29D29EED1D9A59E4006CA074 /* Sources */,
 				29D29EEE1D9A59E4006CA074 /* Frameworks */,
 				29D29EEF1D9A59E4006CA074 /* Resources */,
+				4D6825B325149D3D00E10EB7 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				4D6825B225149D3D00E10EB7 /* PBXTargetDependency */,
 			);
 			name = app;
 			productName = app;
 			productReference = 29D29EF11D9A59E4006CA074 /* app.app */;
 			productType = "com.apple.product-type.application";
+		};
+		4D2ED86125149BDF00BB9459 /* ProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D2ED86925149BDF00BB9459 /* Build configuration list for PBXNativeTarget "ProgressHUD" */;
+			buildPhases = (
+				4D2ED85D25149BDF00BB9459 /* Headers */,
+				4D2ED85E25149BDF00BB9459 /* Sources */,
+				4D2ED85F25149BDF00BB9459 /* Frameworks */,
+				4D2ED86025149BDF00BB9459 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProgressHUD;
+			productName = ProgressHUD;
+			productReference = 4D2ED86225149BDF00BB9459 /* ProgressHUD.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -114,8 +164,9 @@
 				TargetAttributes = {
 					29D29EF01D9A59E4006CA074 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = D48ZRXCJC9;
 						LastSwiftMigration = 1000;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -128,9 +179,14 @@
 							};
 						};
 					};
+					4D2ED86125149BDF00BB9459 = {
+						CreatedOnToolsVersion = 12.0;
+						LastSwiftMigration = 1200;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
-			buildConfigurationList = 29D29EEC1D9A59E4006CA074 /* Build configuration list for PBXProject "app" */;
+			buildConfigurationList = 29D29EEC1D9A59E4006CA074 /* Build configuration list for PBXProject "ProgressHUD" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -144,6 +200,7 @@
 			projectRoot = "";
 			targets = (
 				29D29EF01D9A59E4006CA074 /* app */,
+				4D2ED86125149BDF00BB9459 /* ProgressHUD */,
 			);
 		};
 /* End PBXProject section */
@@ -153,9 +210,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29D29F041D9A59E4006CA074 /* LaunchScreen.storyboard in Resources */,
-				295B8482248C1C5B003E8AE6 /* ViewController.xib in Resources */,
-				29D29F011D9A59E4006CA074 /* Assets.xcassets in Resources */,
+				4D6825AC25149CE400E10EB7 /* Demo in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D2ED86025149BDF00BB9459 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,24 +228,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				295B8483248C1C5B003E8AE6 /* ViewController.swift in Sources */,
-				29D29EF91D9A59E4006CA074 /* AppDelegate.swift in Sources */,
-				299876DB248FCB290025E297 /* ProgressHUD.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D2ED85E25149BDF00BB9459 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D6825A625149C9E00E10EB7 /* ProgressHUD.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		29D29F021D9A59E4006CA074 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				29D29F031D9A59E4006CA074 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
+/* Begin PBXTargetDependency section */
+		4D6825B225149D3D00E10EB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D2ED86125149BDF00BB9459 /* ProgressHUD */;
+			targetProxy = 4D6825B125149D3D00E10EB7 /* PBXContainerItemProxy */;
 		};
-/* End PBXVariantGroup section */
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		29D29F061D9A59E4006CA074 /* Debug */ = {
@@ -304,16 +368,16 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
 				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = D48ZRXCJC9;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = app/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 13.4;
-				PRODUCT_BUNDLE_IDENTIFIER = com.relatedcode.progresshud;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dropletapp.progresshud;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_INSTALL_OBJC_HEADER = NO;
@@ -335,15 +399,15 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
 				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D48ZRXCJC9;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = app/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 13.4;
-				PRODUCT_BUNDLE_IDENTIFIER = com.relatedcode.progresshud;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dropletapp.progresshud;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_INSTALL_OBJC_HEADER = NO;
@@ -354,10 +418,76 @@
 			};
 			name = Release;
 		};
+		4D2ED86725149BDF00BB9459 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = ProgressHUD/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dropletapp.ProgressHUD;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4D2ED86825149BDF00BB9459 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = ProgressHUD/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dropletapp.ProgressHUD;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		29D29EEC1D9A59E4006CA074 /* Build configuration list for PBXProject "app" */ = {
+		29D29EEC1D9A59E4006CA074 /* Build configuration list for PBXProject "ProgressHUD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				29D29F061D9A59E4006CA074 /* Debug */,
@@ -371,6 +501,15 @@
 			buildConfigurations = (
 				29D29F091D9A59E4006CA074 /* Debug */,
 				29D29F0A1D9A59E4006CA074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D2ED86925149BDF00BB9459 /* Build configuration list for PBXNativeTarget "ProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D2ED86725149BDF00BB9459 /* Debug */,
+				4D2ED86825149BDF00BB9459 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
